@@ -76,7 +76,9 @@ h1 {
   content:'\f255';
   font-family: fontello;
 }   
-
+input[type="checkbox"] {
+  display: none;
+}
 
 @media(max-width:800px) {
     #grid {
