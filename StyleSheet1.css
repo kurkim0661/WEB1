@@ -67,8 +67,7 @@ h1 {
   content:'\e800';
   font-family: fontello;
 }
-.tree input[type="checkbox"]
-{
+.tree input[type="checkbox"] {
     display: none;   
 }
 .tree input[type="checkbox"]:checked~ul {
