@@ -77,12 +77,6 @@ h1 {
   font-family: fontello;
 } 
 
-input[type="checkbox"] {
-  display: none;
-}
-input[type="checkbox"]:checked~ul {
-  display: none;
-}
 @media(max-width:800px) {
     #grid {
         display: block;
