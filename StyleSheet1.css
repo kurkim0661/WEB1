@@ -69,7 +69,7 @@ h1 {
 }
 .tree input[type="checkbox"]
 {
-    displa: none;   
+    display: none;   
 }
 .tree input[type="checkbox"]:checked~ul {
   display: none;
