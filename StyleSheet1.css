@@ -1,3 +1,4 @@
+
 #grid {
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -38,7 +39,7 @@ h1 {
     color: red;
 }
 
-<!--
+
 .tree{
   color:#393939;
 }
@@ -66,7 +67,7 @@ h1 {
 .tree a:before{
   content:'\e800';
   font-family: fontello;
-}-->
+}
 .tree input[type="checkbox"]:checked~ul {
   display: none;
 }
