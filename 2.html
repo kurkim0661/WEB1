@@ -2,48 +2,101 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>WEB1 - CSS</title>
+    <title>WEB1 - Html</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://kurkim0661.github.io/WEB1/StyleSheet1.css">
+    <link rel="stylesheet" href="css/jquery.treeview.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+   
+    <script src="lib/jquery.js" type="text/javascript"></script>
+    <script src="lib/jquery.cookie.js" type="text/javascript"></script>
+    <script src="lib/jquery.treeview.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+		$(function() {
+			$("#tree").treeview({
+				collapsed: true,
+				animated: "medium",
+				control:"#sidetreecontrol",
+				persist: "location"
+			});
+		})
+		
+	</script>
+    
 </head>
-<body>
+<body>        
     <h1><a href="https://kurkim0661.github.io/WEB1/index.html">WEB</a></h1>
     <div id="grid">
-        <ol>
-            <li><a href="https://kurkim0661.github.io/WEB1/1.html" class="saw" id="active">HTML</a></li>
-            <li><a href="https://kurkim0661.github.io/WEB1/2.html">CSS</a></li>
-            <li><a href="https://kurkim0661.github.io/WEB1/3.html">JavaScript</a></li>
-        </ol>
+	    <div id="sidetree">
+            <div class="treeheader">&nbsp;</div>
+
+            <div id="sidetreecontrol"><a href="?#">전체 닫기</a> | <a href="?#">전체 열기</a></div>
+            <ul id="tree">
+                <li>
+                    <a href="https://kurkim0661.github.io/WEB1/1.html">HTML</a>
+                    <ul>
+                        <li><a href="#">서브메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://kurkim0661.github.io/WEB1/2.html" style="color: red;">CSS</a>
+                    <ul>
+                        <li><a href="#">첫번째 서브메뉴</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">두번째 서브메뉴</a>
+                            <ul>
+                                <li><a href="#">서브메뉴 속 첫번째 서브메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://kurkim0661.github.io/WEB1/3.html">JavaScript</a>
+                    <ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://kurkim0661.github.io/WEB1/template.html">Template</a>
+                    <ul>
+                        <li>
+                            Singleton
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+</div>
         <div id="article">
             <h2>CSS</h2>
+            Many thanks for all the ways you have made the Web work for everyone in 2019,
+            and for all the work we will accomplish together in 2020.<br />
+
             <p>
-                Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
-                written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web,
-                alongside.
-            </p>
-            <p>
-                [2]CSS is designed to enable the separation of presentation and content,
-                including layout, colors, and fonts.[3] This separation can improve content accessibility,
-                provide more flexibility and control in the specification of presentation characteristics,
-                enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file,
-                and reduce complexity and repetition in the structural content.
-            </p>
-            <p>
-                Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[
+                <a href="https://www.w3.org/" target="_blank" title="W3C main homepage">W3C</a> wishes you a happy holiday season
+                and all the best for the new year!
             </p>
 
             <p>
-                The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+                From all of us at the World Wide Web Consortium.
+            </p>
+
+            <p style="margin-top:40px;">
+                This CSS module defines CSS support for various international writing modes and their combinations,
+                including left-to-right and right-to-left text ordering as well as horizontal and vertical orientations.
+                These new CSS features allow a mixture of horizontal and vertical text regions on the same page.
+                The specification also adds support for such things as isolation in bidirectional text,
+                glyph orientation controls, and short, inline horizontal runs in lines of vertical text.
             </p>
             <p>
-                The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
+                Please, read our press release for additional information and acknowledgements.
             </p>
-            <p>
-                In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.
-            </p>
+            <img src="C:\Users\jihwan\Desktop\WEB/jihwan.jpg" width="50%">
         </div>
-
+        
     </div>
+    
 
 </body>
 </html>
