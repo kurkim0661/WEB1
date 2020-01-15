@@ -8,6 +8,7 @@
 .treeview ul {
 	background-color: white;
 	margin-top: 4px;
+	font-size: 10px;
 }
 
 .treeview .hitarea {
@@ -27,6 +28,7 @@
 .treeview li { 
 	margin: 0;
 	padding: 3px 0pt 3px 16px;
+	font-size: 10px;
 }
 
 .treeview a.selected {
