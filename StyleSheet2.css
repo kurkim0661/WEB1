@@ -134,7 +134,9 @@ figure.snip1432 {
         grid-row-gap: 1em;
         grid-column-gap: 3em;
     }
-
+    .wrapper h2 {
+        font-size: 30px;   
+    }
     .item1 {
         grid-column: 1/2;
     }
