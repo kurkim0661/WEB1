@@ -17,33 +17,24 @@
     .thumbnail.circle{
       border-radius: 100%;
     }
+    .wrapper {
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
   </style>
 </head>
 <body>
-  <a href="https://kurkim0661.github.io/WEB1/algorithm.html">
-    <ul style="margin-top: 0px;
-              margin-bottom: 0px;
-              margin-left: 0px;
-              margin-right: 0px;
-              border-top: 2px solid;
-              border-left: 2px solid;
-              border-right: 2px solid;
-              border-bottom: 2px solid;
-              border-color: gray;
-              width: 300px;
-              height: 300px;">
-    <img src="http:/kurkim0661.github.io/WEB1/designpatternrelationship.jfif" alt style="width: 300px; height: 300px;">  
-      <ul style="width: 300px; 
-                 background-color: lightblue;
-                 font-size: 15px;
-                 border-left: 2px solid; 
-                 border-right: 2px solid; 
-                 border-bottom: 2px solid; 
-                 border-color: gray" solid>
-        What kind of Template?  
-      </ul>
-    </ul>
-  </a>
+  <div class="wrapper">
+    <a href="https://kurkim0661.github.io/WEB1/algorithm.html">
+      <div class="div1">
+          <img src="http:/kurkim0661.github.io/WEB1/designpatternrelationship.jfif" alt style="width: 300px; height: 300px;"> 
+      </div>
+      <div class="div2">
+        What kind of Template? 
+      </div>
+    </a>
+  </div>
   
 </body>
 </html>
