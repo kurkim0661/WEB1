@@ -22,8 +22,9 @@ figure.snip1432 {
     }
 
     figure.snip1432 img {
-        opacity: 0.8;
+        opacity: 0.7;
         width: 100%;
+        min-height: 250px;
         vertical-align: top;
         -webkit-transition: opacity 0.35s;
         transition: opacity 0.35s;
