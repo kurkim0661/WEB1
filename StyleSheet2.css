@@ -125,7 +125,7 @@ figure.snip1432 {
     grid-column: 2/3;
 }
 
-@media(max-width: 715px) {
+@media(max-width: 1110px) {
     .wrapper {
         display: grid;
         grid-template-columns: 200px 200px;
