@@ -107,6 +107,7 @@ figure.snip1432 {
     grid-auto-columns: auto;
     grid-row-gap: 1em;
     grid-column-gap: 4em;
+    transition:all 1s;
 }
     .item1 {
         grid-column: 1/2;
