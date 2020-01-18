@@ -102,12 +102,15 @@ figure.snip1432 {
 
 .wrapper {
     display: grid;
+    widh
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-auto-columns: auto;
     grid-row-gap: 1em;
     grid-column-gap: 4em;
     transition:all 1s;
+    padding-left: 40px;
+    padding-right: 40px;
 }
     .item1 {
         grid-column: 1/2;
